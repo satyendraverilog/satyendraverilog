@@ -1,0 +1,8 @@
+module gt(a,b,y);
+input a,b;
+output y;
+
+AND a(y,a,b);
+
+endmodule
+
