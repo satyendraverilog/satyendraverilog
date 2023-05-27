@@ -1,0 +1,7 @@
+module gtt(a,b,y);
+input a,b;
+output y;
+
+OR o(y,a,b);
+
+endmodule
