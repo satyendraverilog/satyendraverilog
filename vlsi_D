@@ -1,5 +1,5 @@
 module gt(a,b,y);
-input a,b;
+input a[3:0],b[4:0];
 output y;
 
 AND a(y,a,b);
